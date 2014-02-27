@@ -1,0 +1,24 @@
+{
+  "name": "client-error",
+  "version": "0.1.0",
+  "description": "Error class for Node servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guillaumervls/client-error.git"
+  },
+  "keywords": [
+    "node",
+    "error",
+    "client"
+  ],
+  "author": "guillaumervls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumervls/client-error/issues"
+  },
+  "homepage": "https://github.com/guillaumervls/client-error"
+}
