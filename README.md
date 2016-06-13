@@ -1,31 +1,19 @@
-Client Error
-============
-
-Error class for Node servers
+# knas
+Simple Error class for node.js Forked from [this](https://github.com/guillaumervls/client-error).
 
 # Install
+`npm install knas`
 
-`npm install client-error`
-
-# Use
+# Usage
 
 ```javascript
-var ClientError = require('client-error');
-throw new ClientError(); // -> 400 error / default message : Error 400 - Bad Request
-throw new ClientError(401); // -> 400 error / default message : Error 401 - Unauthorized
-throw new ClientError(403); // -> 403 error / default message : Error 403 - Forbidden
-throw new ClientError(404); // -> 404 error / default message : Error 404 - Not Found
-throw new ClientError('Boom !'); // -> 400 error / custom message : Error 400 - Bad Request : Boom !
-throw new ClientError(403, 'No !'); // -> 403 error / custom message : Error 403 - Forbidden : No !
-// Etc...
+var Knas = require('knas');
+
+// in middleware
+return next(new Knas(401, "invalid key"));
 ```
 
-# Contribute
-
-Feel free to add other 4xx error codes
-
 # Licence
-
 ```
 The MIT License (MIT)
 

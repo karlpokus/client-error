@@ -1,24 +1,24 @@
 {
-  "name": "client-error",
+  "name": "knas",
   "version": "0.1.0",
-  "description": "Error class for Node servers",
+  "description": "Simple Error class for node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/guillaumervls/client-error.git"
+    "url": "git://github.com/karlpokus/knas.git"
   },
   "keywords": [
     "node",
     "error",
     "client"
   ],
-  "author": "guillaumervls",
+  "author": "karl pokus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guillaumervls/client-error/issues"
+    "url": "https://github.com/karlpokus/knas/issues"
   },
-  "homepage": "https://github.com/guillaumervls/client-error"
+  "homepage": "https://github.com/karlpokus/knas"
 }
