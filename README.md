@@ -10,7 +10,7 @@ Simple Error class for node.js Forked from [this](https://github.com/guillaumerv
 var Knas = require('knas');
 
 // in middleware
-return next(new Knas(401, "invalid key"));
+return next(new Knas(401, "invalid key")); // defaults to 401, "Bad request"
 ```
 
 # Licence
