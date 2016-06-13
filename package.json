@@ -4,7 +4,7 @@
   "description": "Simple Error class for node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape ./test/tests.js"
   },
   "repository": {
     "type": "git",
