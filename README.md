@@ -2,15 +2,21 @@
 Simple Error class for node.js Forked from [this](https://github.com/guillaumervls/client-error).
 
 # Install
-`npm install knas`
+```
+$ npm install knas
+```
 
 # Usage
-
 ```javascript
 var Knas = require('knas');
 
 // in middleware
 return next(new Knas(401, "invalid key")); // defaults to 401, "Bad request"
+```
+
+# test
+```
+$ npm test
 ```
 
 # Licence
