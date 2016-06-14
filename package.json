@@ -1,6 +1,6 @@
 {
   "name": "knas",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Simple Error class for node.js",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   ],
   "author": "karl pokus",
   "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
   "bugs": {
     "url": "https://github.com/karlpokus/knas/issues"
   },
