@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/knas.svg)](https://badge.fury.io/js/knas)
+
 # knas
 Simple Error class for node.js Forked from [this](https://github.com/guillaumervls/client-error).
 
