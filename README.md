@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/karlpokus/knas.svg?branch=master)](https://travis-ci.org/karlpokus/knas)
 [![npm version](https://badge.fury.io/js/knas.svg)](https://badge.fury.io/js/knas)
 
 # knas
